@@ -47,9 +47,9 @@
   </head>
   <body class="font-manrope">
     <!-- header section starts -->
-    <div class="header mx-auto px-8">
-      <div class="navbar bg-base-100">
-        <div class="navbar-start">
+    <div class="header mx-auto px-8 pt-12 pb-10 bg-[#F5F5F5]">
+      <div class="navbar flex justify-around">
+        <div class="navbar-start w-[20%]">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
               <svg
@@ -85,7 +85,7 @@
               <h3 class="text-3xl text-customColor1 font-bold">Rinterio</h3>
           </div>
         </div>
-        <div class="navbar-center hidden lg:flex">
+        <div class="navbar-center w-[50%] hidden lg:flex flex justify-center">
           <ul class="menu menu-horizontal px-1 text-customColor2">
             <li><a class="font-bold">Home</a></li>
             <li><a>Services</a></li>
@@ -94,7 +94,15 @@
             <li><a>Contact Us</a></li>
           </ul>
         </div>
-        <div class="navbar-end">
+        <div class="navbar-end  w-[30%] flex items-center gap-2">
+            <!-- search bar -->
+          <div class="bg-white size-12 rounded-3xl flex items-center justify-center">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <!-- search bar -->
+          <div class="bg-white size-12 rounded-3xl flex items-center justify-center">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
             <div class="bg-customColor3 px-5 py-4 rounded-[32px] flex items-center justify-center gap-2 cursor-pointer">
                 <a class="text-xl text-customColor1 font-bold">Book Consult</a>
                 <div class="flex items-center justify-center bg-black text-white size-7 rounded-2xl">
@@ -106,5 +114,9 @@
       </div>
     </div>
     <!-- header section ends -->
+
+    <!-- banner section starts -->
+     <div class="banner mx-auto px-8"></div>
+    <!-- banner section ends -->
   </body>
 </html>
